@@ -15,7 +15,7 @@ print("Say something...")
 # seconds of audio is processed.  The task returns the recognition text as result. 
 # Note: Since recognize_once() returns only a single utterance, it is suitable only for single
 # shot recognition like command or query. 
-# For long-running multi-utterance recognition, use start_continuous_recognition() instead.
+# For long-running multi-utterance recognition, use start_continuous_recognition() instead..
 result = speech_recognizer.recognize_once()
 
 # Checks result.
